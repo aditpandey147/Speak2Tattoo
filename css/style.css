@@ -7,7 +7,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 .layout_padding_gallery{
@@ -117,7 +117,7 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  /*padding: 15px 0;*/
 }
 
 .header_section .container-fluid {
@@ -152,6 +152,7 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 600;
+  font-size: 15px;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover{
   background-color: #770d57;
@@ -353,7 +354,8 @@ a:focus {
 .service_section .box .detail-box h5 {
   font-weight: bold;
   font-size: 28px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "DM Serif Text", serif;
+  font-style: italic;
 }
 
 .about_section .heading_container {
@@ -1026,7 +1028,7 @@ h4{
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 7px 0;
   background-color: #212121;
 }
 
@@ -1051,3 +1053,34 @@ section.about_section.layout_padding_artist {
 /*section.about_section.layout_padding_about {
   margin-top: 5rem;
 }*/
+.about_section .social_box a{
+  border: 2px solid #212121;
+  border-radius: 25px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #131313;
+  margin-right: 10px;
+}
+.about_section .social_box a:hover{
+  background-color: #a80e8d;
+  color: white;
+  border: none;
+}
+.about_section .social_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+.footer_section .footer_pic img{
+  max-height: 205px;
+  max-width: 225px;
+}

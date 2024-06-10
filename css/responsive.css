@@ -130,6 +130,9 @@
   padding: 0.9rem;
   margin-top: 21px;
 }
+.layout_padding {
+  padding: 40px 0;
+}
 }
 
 @media (max-width: 868px){
@@ -396,6 +399,9 @@
   background: #a52c95;
   padding: 0.9rem;
   margin-top: 21px;
+}
+.layout_padding {
+  padding: 30px 0;
 }
 }
 
