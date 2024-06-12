@@ -980,12 +980,12 @@ h4{
 
 }
 
-.testimonial-carousel .owl-dots {
+/**.testimonial-carousel .owl-dots {
   margin-top: 15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-}
+}**/
 
 .testimonial-carousel .owl-dot {
   position: relative;
@@ -1029,7 +1029,7 @@ h4{
 
 .header_section {
   padding: 7px 0;
-  background-color: #212121;
+  background-color: #000000;
 }
 
 .img-box.Mission_img-box img {
@@ -1078,9 +1078,22 @@ section.about_section.layout_padding_artist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
 }
 .footer_section .footer_pic img{
   max-height: 205px;
   max-width: 225px;
+}
+
+/*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
 }
