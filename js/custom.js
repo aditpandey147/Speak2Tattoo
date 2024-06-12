@@ -7,6 +7,17 @@ function getYear() {
 
 getYear();
 
+
+ // Spinner
+ var spinner = function () {
+  setTimeout(function () {
+      if ($('#spinner').length > 0) {
+          $('#spinner').removeClass('show');
+      }
+  }, 1);
+};
+spinner();
+
 //  owl carousel script
 $(".owl-carousel").owlCarousel({
     loop: true,
